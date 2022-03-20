@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  backend:
+    container_name: backend
+    build: .
+    image: sultansam/endflix:1.0
+    stdin_open: true
+    ports:
+    - 5544:5000
